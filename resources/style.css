@@ -81,32 +81,86 @@ ul{
   display: flex;
   color:black;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   margin-top: 3rem;
 }
 
-.pro1{
-background-color: white;
-border-color: white !important;
-border-style: dashed!important;
+.pro1, .pro2, .pro3 {
+border: 3px solid black;
+width:30%;
+height: 15rem;
 }
-.total{
+
+.pro3 p{
   background-color: black;
-  width:30%;
-  display: flex;
+  text-align: center;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
   color:white;
+  margin-top: 4rem;
+  padding:0.5rem auto;
 }
-.total,.hours{
+
+.pro1 p, .pro2 p{
+  background-color: black;
+  text-align: center;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  color:white;
+  margin-top: 2rem;
+  padding:0.5rem auto;
 }
+
 
 .pro3 img{
   height:5rem;
+  border-top: 4rem white solid;
+  border-left: 2.5rem white solid;
 }
 
-img{
+.pro2 img{
   height:9rem;
   width:auto;
+  border-top: 2rem white solid;
+  border-left: 3.5rem white solid;
+  border-bottom: 0;
+  margin-bottom: 0;
 }
-.pro{
+.pro1 img{
+  height:9rem;
+  width:auto;
+  border-top: 2rem white solid;
+  border-left: 3.5rem white solid;
+  border-bottom: 0;
+  margin-bottom: 0;
+}
+.location ,.hours{
+  width: 35%;
+}
+.location h2,.hours h2{
+  background-color: black;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.location p,.hours p{
+  color:black;
+}
+.total{
+  display: flex;
+  color:white;
+  margin-top: 3rem;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
 
+
+footer{
+  background-color: black;
+  color:white;
+  height:5rem;
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  margin:0 auto;
 }
